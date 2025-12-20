@@ -88,7 +88,7 @@ struct PacketParser {
 PacketParser parser;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(1200);
   
   // Pinnien asetukset
   pinMode(ENA, OUTPUT);
